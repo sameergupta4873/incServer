@@ -2,13 +2,13 @@
   "name": "strall",
   "version": "1.0.0",
   "description": "",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
-    "server": "nodemon server/server",
-    "data:import": "node server/seeder.js",
-    "data:destroy": "node server/seeder.js -d"
+    "start": "node server.js",
+    "server": "nodemon server",
+    "data:import": "node seeder.js",
+    "data:destroy": "node seeder.js -d"
   },
   "author": "",
   "license": "ISC",
